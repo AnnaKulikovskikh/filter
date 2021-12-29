@@ -17,3 +17,9 @@
 .imgPortfolio {
   width: 300px;
 }
+
+.btn {
+  display: inline-block;
+  list-style-type: none;
+  margin: 20px;
+}

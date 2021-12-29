@@ -56,6 +56,12 @@ function Portfolio() {
     return (
       <div>
         <ProjectList data = {projects}/>
+        <ul classNmae={"main"}> 
+          {filtres.map((item) => {
+            return <li className={"btn"}>{item}</li>
+        }) 
+        }  
+      </ul>
       </div>
     )
 }
