@@ -1,4 +1,4 @@
-.main {
+.App {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6,20 +6,28 @@
   padding: 0;
 }
 
-.list {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
+.menu {
   list-style-type: none;
-  padding: 3px;
+  display: flex;
 }
 
-.imgPortfolio {
-  width: 300px;
+.menu * {
+  margin-right: 2rem;
+  padding: 0.3rem 1rem;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
-.btn {
-  display: inline-block;
+.menu-active {
+  background-color: black;
+  color: white;
+}
+
+.main {
   list-style-type: none;
-  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main * {
+  margin: 5px;
 }
